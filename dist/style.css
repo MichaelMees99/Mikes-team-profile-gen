@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.team-header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgb(248, 106, 12);
+    width: 100vw;
+}
+
+.employee-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1 0 200px;
+}
+
+.employee-name {
+    color: #333;
+    font-size: 1.25em;
+}
+
+.employee-id,
+.employee-email,
+.employee-extra {
+    color: #666;
+    font-size: 1em;
+}
+
+.employee-email a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.employee-extra a {
+    color: #007BFF;
+    text-decoration: none;
+}
